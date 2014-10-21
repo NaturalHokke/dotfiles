@@ -1,0 +1,16 @@
+[user]
+  name = NaturalHokke
+  email = natural.hokke@gmail.com
+[color]
+  ui = true
+[alias]
+  st = status -sb
+  br = branch -a
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset' --abbrev-commit --date=relative
+  ignore = update-index --assume-unchanged
+  unignore = update-index --no-assume-unchanged
+  ignored = !git ls-files -v | grep "^[a-z]"
+[core]
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+  editor = vim -c \"set fenc=utf-8\"
