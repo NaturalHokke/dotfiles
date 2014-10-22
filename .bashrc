@@ -40,7 +40,7 @@ __rbenv_ps1 ()
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 GIT_PS1_SHOWCOLORHINTS=1
-export PROMPT_COMMAND='export OLD_STATUS=$?'
+export PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007";export OLD_STATUS=$?'
 DATE='\[\033[32m\]\D{%F %T}\[\033[00m\]'
 RUBY='\[\033[33m\](ruby:`__rbenv_ps1`)\[\033[00m\]'
 DIR='\[\033[34m\]\w\[\033[00m\]'
