@@ -22,4 +22,5 @@ for filename in $(ls . | grep -v bootstrap | grep -v README | grep -v default-ge
 done
 ln -sf ~/dotfiles/default-gems ~/.rbenv/default-gems
 
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
 apm star --install

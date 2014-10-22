@@ -27,6 +27,7 @@ install readline
 install ruby-build
 install subversion
 install tig
+install vim --with-lua
 ## Casks
 install brew-cask
 cask install iterm2
