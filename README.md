@@ -5,6 +5,7 @@ ssh-keygen
 install Xcode 6.1 and Command Line Tools  
 https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12  
 `xcode-select --install`
+Agreeing to the Xcode/iOS license.
 
 ## bootstrap.sh
 `curl https://raw.githubusercontent.com/NaturalHokke/dotfiles/master/bootstrap.sh | sh`
