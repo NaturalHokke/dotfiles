@@ -1,5 +1,5 @@
 ## Xcode install
-install Xcode 6.1 and Command Line Tools
+install Xcode 6.1 and Command Line Tools  
 https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12
 
 ## bootstrap.sh
