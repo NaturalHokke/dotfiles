@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd ~
 ## check & install Homebrew / install git
