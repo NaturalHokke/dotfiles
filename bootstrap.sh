@@ -24,6 +24,6 @@ brew bundle
 
 ## Symlinks
 for filename in $(ls . | grep -v bootstrap | grep -v README | grep -v default-gems); do
-  ln -sf "~/dotfiles/${filename}" "~/${filename}"
+  ln -sf ~/dotfiles/$filename ~/$filename
 done
 ln -sf ~/dotfiles/default-gems ~/.rbenv/default-gems
