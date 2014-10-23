@@ -9,7 +9,13 @@ fi
 brew install git
 
 ## get dotfiles
-git clone git@github.com:NaturalHokke/dotfiles.git
+if [ -e ~/dotfiles ]; then
+  cd ~/dotfiles
+  git pull origin master
+  cd ~
+else
+  git clone git@github.com:NaturalHokke/dotfiles.git
+fi
 
 ## Brewfile
 # 使えなくなるので、何か代替手段を...
