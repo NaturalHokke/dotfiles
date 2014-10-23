@@ -30,28 +30,28 @@ install tig
 install vim --with-lua
 ## Casks
 install brew-cask
-cask install iterm2
-cask install atom
-cask install virtualbox
-cask install vagrant
-cask install google-japanese-ime
 cask install android-studio-bundle
-cask install genymotion
-cask install mysqlworkbench
+cask install atom
+cask install caffeine
 cask install dropbox
-cask install skype
-cask install menumeters   # メニューバーにメーター表示
+cask install genymotion
+cask install google-japanese-ime
+cask install iterm2
 cask install java6
 cask install java7
-cask install caffeine
-cask install pencil
 cask install kobito
+cask install menumeters   # メニューバーにメーター表示
+cask install mysqlworkbench
+cask install pencil
+cask install vagrant
+cask install virtualbox
 cask install skitch
+cask install skype
 ## Fonts
-cask install font-roboto
-cask install font-noto-sans-japanese
 cask install font-noto-sans
+cask install font-noto-sans-japanese
 cask install font-noto-serif
+cask install font-roboto
 
 ## Remove outdated versions
 cleanup

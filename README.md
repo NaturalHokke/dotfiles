@@ -9,7 +9,8 @@ ssh-keygen
 AppStoreからしかインストール出来ない奴をインストール  
 「購入済み」を確認して一通り入れれば良い。Xcodeは必須。  
 CommandLineToolsをインストール `xcode-select --install` して  
-`Agreeing to the Xcode/iOS license.` Xcodeを起動しておく。
+`Agreeing to the Xcode/iOS license.` Xcodeを起動しておく。  
+`sudo xcodebuild -license` でも可
 
 # dotfilesの適用
 ## bootstrap.sh
