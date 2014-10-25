@@ -19,11 +19,6 @@ export HISTCONTROL=ignoreboth:erasedups
 export HISTSIZE=1000
 export HISTFILESIZE=1000
 
-# bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-
 ### prompt setting ###
 __rbenv_ps1 ()
 {
