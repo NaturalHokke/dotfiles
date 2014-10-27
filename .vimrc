@@ -28,12 +28,14 @@ NeoBundle 'altercation/vim-colors-solarized'
 " NeoBundle 'jonathanfilip/vim-lucius'
 " NeoBundle 'jpo/vim-railscasts-theme'
 
-" tree view
+" tree view ----------
 NeoBundle 'scrooloose/nerdtree'
 nnoremap <silent><C-\> :NERDTreeToggle<CR>
 
-" status line
+" status line --------
 NeoBundle 'bling/vim-airline'
+
+" editor -------------
 
 call neobundle#end()
 filetype plugin indent on
