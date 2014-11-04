@@ -1,5 +1,5 @@
 # default editor
-export EDITOR=$(brew --prefix vim)
+export EDITOR=vim
 
 # ls color
 alias ls='ls -Gla'
