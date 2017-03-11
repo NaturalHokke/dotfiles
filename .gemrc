@@ -1,1 +1,3 @@
 gem: --no-ri --nordoc
+install: --no-document
+update: --no-document

@@ -52,6 +52,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set laststatus=2
+set backspace=indent,eol,start
 set number
 set nobackup
 set noswapfile
