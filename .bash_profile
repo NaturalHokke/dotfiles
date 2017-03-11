@@ -1,6 +1,5 @@
 export ATOM_PATH=~/Applications
 export PATH=/usr/local/sbin:/usr/local/bin:$PATH
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
