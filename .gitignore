@@ -2,4 +2,6 @@
 *.DS_store
 *.powder
 *database.local.yml
+.config/direnv/allow/*
+!.config/direnv/allow/.gitkeep
 
