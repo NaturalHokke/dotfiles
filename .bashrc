@@ -5,16 +5,6 @@ export EDITOR=vim
 alias ls='ls -Gla'
 export LSCOLORS=gxfxcxdxbxegebadagacad
 
-# awscli
-complete -C aws_completer aws
-
-# aliases
-alias be='bundle exec'
-alias :="cd .."
-alias ::="cd ../.."
-alias :::="cd ../../.."
-alias ::::="cd ../../../.."
-
 export HISTCONTROL=ignoreboth:erasedups
 export HISTSIZE=1000
 export HISTFILESIZE=1000
