@@ -5,9 +5,12 @@ export EDITOR=vim
 alias ls='ls -Gla'
 export LSCOLORS=gxfxcxdxbxegebadagacad
 
+# command history
+export HISTFILE=$HOME/.histories/.bash_history
 export HISTCONTROL=ignoreboth:erasedups
 export HISTSIZE=1000
 export HISTFILESIZE=1000
+export MYSQL_HISTFILE=$HOME/.histories/.mysql_history
 
 # prompt setting
 __rbenv_ps1 ()
