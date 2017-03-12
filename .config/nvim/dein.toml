@@ -17,15 +17,15 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'w0ng/vim-hybrid'
 hook_add = '''
-    let g:hybrid_custom_term_colors = 1
+  let g:hybrid_custom_term_colors = 1
 '''
 
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = '''
-    let g:lightline = {
-    \   'colorscheme': 'hybrid'
-    \}
+  let g:lightline = {
+  \   'colorscheme': 'wombat'
+  \}
 '''
 
 [[plugins]]
@@ -56,8 +56,8 @@ on_ft = 'coffee'
 repo = 'rcmdnk/vim-markdown'
 on_ft = ['markdown', 'mkd', 'md']
 hook_add = '''
-    let g:vim_markdown_frontmatter = 1
-    let g:vim_markdown_math = 1
+  let g:vim_markdown_frontmatter = 1
+  let g:vim_markdown_math = 1
 '''
 
 [[plugins]]

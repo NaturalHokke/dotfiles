@@ -1,9 +1,3 @@
-filetype off
-filetype plugin indent off
-if !&compatible
-  set nocompatible
-endif
-
 " reset augroup
 augroup MyAutoCmd
   autocmd!
@@ -30,9 +24,7 @@ endif
 if has('vim_starting') && dein#check_install()
   call dein#install()
 endif
-filetype plugin indent on
 
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
 set encoding=utf-8
 set fileencodings=ucs_bom,utf8,ucs-2le,ucs-2
@@ -41,17 +33,12 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set laststatus=2
-set backspace=indent,eol,start
 set number
 set nobackup
 set noswapfile
-set autoread
 set ambiwidth=double
-set display=uhex
 set scrolloff=10
 set cursorline
 set background=dark
 colorscheme hybrid
-syntax enable
 hi clear CursorLine
