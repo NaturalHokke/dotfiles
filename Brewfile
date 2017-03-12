@@ -41,6 +41,7 @@ brew 'msgpack'
 brew 'mysql', restart_service: true
 brew 'node'
 brew 'pkg-config'
+brew 'postgresql@9.4', restart_service: true
 brew 'ruby-build'
 brew 'rbenv'
 brew 'rbenv-default-gems'
@@ -49,6 +50,4 @@ brew 'scons'
 brew 'tig'
 brew 'unibilium'
 brew 'vagrant-completion'
-brew 'vim', args: ['with-lua']
-brew 'homebrew/versions/postgresql94'
 brew 'neovim/neovim/neovim'
