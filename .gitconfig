@@ -14,5 +14,5 @@
 [core]
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
-  editor = vim -c \"set fenc=utf-8\"
+  editor = nvim
 	quotepath = false
