@@ -1,4 +1,5 @@
 # default editor
+alias vim='nvim'
 export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
 
