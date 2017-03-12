@@ -21,10 +21,16 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'joshdick/onedark.vim'
+hook_add = '''
+  let g:onedark_termcolors=256
+'''
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = '''
   let g:lightline = {
-  \   'colorscheme': 'wombat'
+  \   'colorscheme': 'onedark'
   \}
 '''
 
