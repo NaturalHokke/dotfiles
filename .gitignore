@@ -4,4 +4,5 @@
 *database.local.yml
 .config/direnv/allow/*
 !.config/direnv/allow/.gitkeep
+*.pry_history
 
