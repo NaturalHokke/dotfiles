@@ -15,6 +15,9 @@ repo = 'tomtom/tcomment_vim'
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
 repo = 'w0ng/vim-hybrid'
 hook_add = '''
   let g:hybrid_custom_term_colors = 1
