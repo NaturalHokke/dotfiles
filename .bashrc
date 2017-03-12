@@ -1,5 +1,6 @@
 # default editor
 export EDITOR=vim
+export XDG_CONFIG_HOME=$HOME/.config
 
 # ls color
 alias ls='ls -Gla'
