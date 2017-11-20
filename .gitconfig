@@ -1,5 +1,5 @@
 [user]
-  name = 天然ほっけ
+  name = natural.hokke
   email = natural.hokke@gmail.com
 [color]
   ui = true
@@ -16,3 +16,7 @@
   attributesfile = ~/.gitattributes
   editor = nvim
 	quotepath = false
+[merge]
+	ff = false
+[pull]
+	ff = only
