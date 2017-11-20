@@ -25,6 +25,7 @@ if has('vim_starting') && dein#check_install()
   call dein#install()
 endif
 
+filetype plugin indent on
 set termguicolors
 set encoding=utf-8
 set fileencodings=ucs_bom,utf8,ucs-2le,ucs-2
