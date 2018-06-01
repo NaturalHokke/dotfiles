@@ -34,6 +34,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set autoindent
 set number
 set nobackup
 set noswapfile
@@ -41,5 +42,6 @@ set ambiwidth=double
 set scrolloff=10
 set cursorline
 set background=dark
+set viminfo+=n$HOME/.histories/.viminfo
 colorscheme hybrid
 hi clear CursorLine

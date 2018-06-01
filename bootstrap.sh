@@ -23,7 +23,6 @@ ln -sf ~/dotfiles/Brewfile ~/Brewfile
 brew bundle
 
 ## Symlinks
-for filename in $(ls . | grep -v bootstrap | grep -v README | grep -v default-gems); do
+for filename in $(ls . | grep -v bootstrap | grep -v README); do
   ln -sf ~/dotfiles/$filename ~/$filename
 done
-ln -sf ~/dotfiles/default-gems ~/.rbenv/default-gems
