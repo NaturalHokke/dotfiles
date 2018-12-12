@@ -1,10 +1,4 @@
-" reset augroup
-augroup MyAutoCmd
-  autocmd!
-augroup END
-
-" dein settings
-" dein自体の自動インストール
+" dein自動インストール
 let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.cache') : $XDG_CACHE_HOME
 let s:dein_dir = s:cache_home . '/dein'
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
@@ -25,23 +19,22 @@ if has('vim_starting') && dein#check_install()
   call dein#install()
 endif
 
+let g:netrw_liststyle = 3
+
 filetype plugin indent on
 set termguicolors
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab autoindent
+set fileencodings=ucs_bom,utf8,ucs-2le,ucs-2 fileformats=unix,dos,mac
+set list listchars=tab:»\ ,trail:-,extends:»,precedes:«,nbsp:%
+set nobackup noswapfile
 set encoding=utf-8
-set fileencodings=ucs_bom,utf8,ucs-2le,ucs-2
-set fileformats=unix,dos,mac
-set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set autoindent
-set number
-set nobackup
-set noswapfile
 set ambiwidth=double
 set scrolloff=10
-set cursorline
 set background=dark
 set viminfo+=n$HOME/.histories/.viminfo
+set mouse=a
+set cursorline
+set number
+set title
 colorscheme hybrid
 hi clear CursorLine

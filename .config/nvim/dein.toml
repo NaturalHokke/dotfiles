@@ -55,10 +55,6 @@ repo  = 'jelera/vim-javascript-syntax'
 on_ft = 'js'
 
 [[plugins]]
-repo  = 'kchmck/vim-coffee-script'
-on_ft = 'coffee'
-
-[[plugins]]
 repo = 'rcmdnk/vim-markdown'
 on_ft = ['markdown', 'mkd', 'md']
 hook_add = '''
