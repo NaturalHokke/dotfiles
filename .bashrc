@@ -4,20 +4,37 @@ if type brew > /dev/null 2>&1 && [ -f $(brew --prefix)/etc/bash_completion ]; th
 fi
 
 # default editor
-alias vim='nvim'
-export EDITOR=vim
-export XDG_CONFIG_HOME=$HOME/.config
+alias vim="nvim"
+export EDITOR="vim"
+
+# XDG Base Directory
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export PSQLRC="$XDG_CONFIG_HOME/pg/psqlrc"
+export PGPASSFILE="$XDG_CONFIG_HOME/pg/pgpass"
+export PGSERVICEFILE="$XDG_CONFIG_HOME/pg/pg_service.conf"
+export PSQL_HISTORY="$XDG_DATA_HOME/pg/history"
+export HISTFILE="$XDG_DATA_HOME/bash/history"
+export MYSQL_HISTFILE="$XDG_DATA_HOME/mysql/history"
+export NODE_REPL_HISTORY="$XDG_DATA_HOME/node/history"
+export GEM_HOME="$XDG_DATA_HOME/gem"
+export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"
+export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME/bundle"
+export BUNDLE_USER_CACHE="$XDG_CACHE_HOME/bundle"
+export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME/bundle"
+export GRADLE_USER_HOME="$XDG_DATA_HOME/gradle"
+export ANDROID_SDK_HOME="$XDG_CONFIG_HOME/android"
+export VAGRANT_HOME="$XDG_DATA_HOME/vagrant"
 
 # ls color
-alias ls='ls -Gla'
-export LSCOLORS=gxfxcxdxbxegebadagacad
+alias ls="ls -Gla"
+export LSCOLORS="gxfxcxdxbxegebadagacad"
 
 # command history
-export HISTFILE=$HOME/.histories/.bash_history
-export HISTCONTROL=ignoreboth:erasedups
+export HISTCONTROL="ignoreboth:erasedups"
 export HISTSIZE=1000
 export HISTFILESIZE=1000
-export MYSQL_HISTFILE=$HOME/.histories/.mysql_history
 
 # prompt setting
 __rbenv_ps1 ()

@@ -1,8 +1,16 @@
-*/vendor/bundle
-*.DS_store
-*.powder
-*database.local.yml
 .config/direnv/allow/*
 !.config/direnv/allow/.gitkeep
-*.pry_history
 
+.local/share/*
+!.local/share/bash
+!.local/share/mysql
+!.local/share/node
+!.local/share/pg
+.local/share/bash/*
+.local/share/mysql/*
+.local/share/node/*
+.local/share/pg/*
+!.local/share/bash/.gitkeep
+!.local/share/mysql/.gitkeep
+!.local/share/node/.gitkeep
+!.local/share/pg/.gitkeep

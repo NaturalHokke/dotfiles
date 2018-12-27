@@ -1,0 +1,8 @@
+*/vendor/bundle
+*.DS_store
+*.powder
+*database.local.yml
+.config/direnv/allow/*
+!.config/direnv/allow/.gitkeep
+*.pry_history
+

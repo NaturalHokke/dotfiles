@@ -31,7 +31,6 @@ set encoding=utf-8
 set ambiwidth=double
 set scrolloff=10
 set background=dark
-set viminfo+=n$HOME/.histories/.viminfo
 set mouse=a
 set cursorline
 set number

@@ -12,8 +12,6 @@
   ignored = !git ls-files -v | grep "^[a-z]"
   pr-checkout = !sh -c 'git fetch $1 pull/$2/head:pr-$2 && git checkout pr-$2' -
 [core]
-  excludesfile = ~/.gitignore
-  attributesfile = ~/.gitattributes
   editor = nvim
 	quotepath = false
 [merge]
